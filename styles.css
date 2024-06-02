@@ -165,6 +165,18 @@ body {
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
+  margin-bottom: 20px;
+}
+
+.skills__hard-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills__hard-item {
+  list-style: none;
+  color: var(--secondary-text-color);
+  font-weight: bold;
 }
 
 .experiences {
